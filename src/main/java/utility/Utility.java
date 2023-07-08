@@ -42,7 +42,7 @@ public class Utility {
 	{
 	    File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	    String str = RandomString.make(2);
-	    File dest = new File("C:\\Users\\palla\\EclipseWorksapce\\PolicyBazzarProject\\screenshots\\"+fileName+"-"+str+".png");            
+	    File dest = new File("F:\\@Ruksar-TESTINGdata\\myss"+fileName+"-"+str+".png");            
 	    
 	    FileHandler.copy(src, dest);
 	    Reporter.log("Taking screenshot and stored at-"+dest, true);
@@ -58,10 +58,10 @@ public class Utility {
 	
 	//fetch data from excel
 	
-	public static String excelData(String sheetName,int rowNum,int cellNum) throws EncryptedDocumentException, IOException
+	public static String excelData(int rowNum,int cellNum) throws EncryptedDocumentException, IOException
 	{
-		FileInputStream myFile = new FileInputStream("C:\\Users\\palla\\OneDrive\\Documents\\Automation\\ExcelSheet\\EmployeeData.xlsx");
-		String data = WorkbookFactory.create(myFile).getSheet(sheetName).getRow(rowNum).getCell(cellNum).getStringCellValue();
+		FileInputStream myFile = new FileInputStream("F:\\@Ruksar-TESTINGdata\\excelreading\\testdata.xlsx");
+		String data = WorkbookFactory.create(myFile).getSheet("Sheet1").getRow(rowNum).getCell(cellNum).getStringCellValue();
 		Reporter.log("Reading data from excel row number-"+rowNum+", cell number-"+cellNum, true);
 		return data;	
 	}
