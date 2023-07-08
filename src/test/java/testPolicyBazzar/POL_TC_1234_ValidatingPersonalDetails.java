@@ -44,7 +44,7 @@ public class POL_TC_1234_ValidatingPersonalDetails extends Base {
 		signIn.clickOnMyAccount();
 		Utility.threadWait(1000);
 		signIn.clickOnMyProfile();
-		Utility.imlicitWait(driver, 2000);
+		Utility.imlicitWait(driver, 2500);
 		
 		//handle window
 		
@@ -94,6 +94,7 @@ public class POL_TC_1234_ValidatingPersonalDetails extends Base {
 	 {
 		 myAcc.clickOnLogOut();
 		 Reporter.log("Logging out from Policy Bazzar Application", true);
+		 Thread.sleep(3000);
 		 closeBrowser();
 	 }
 }
