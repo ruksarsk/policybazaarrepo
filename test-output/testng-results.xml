@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching Policy Bazzar Appilcation]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for complete load page, wait time-1000]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on sign in home page]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for complete load page, wait time-1000]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excel row number-1, cell number-0]]>
+    </line>
+    <line>
+      <![CDATA[Entering mobile number]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for,wait time-1000]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on sign in with password]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for,wait time-1000]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excel row number-1, cell number-1]]>
+    </line>
+    <line>
+      <![CDATA[Entering password]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on sign in]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for complete load page, wait time-1500]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on my account]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for,wait time-1000]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on my profile]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for complete load page, wait time-2000]]>
+    </line>
+    <line>
+      <![CDATA[validatingProfilePageURL Execution started]]>
+    </line>
+    <line>
+      <![CDATA[Actual and expected url are matching - TC is passed]]>
+    </line>
+    <line>
+      <![CDATA[validatingProfilePageURL is successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[validatingFemaleRadioSelection Execution started]]>
+    </line>
+    <line>
+      <![CDATA[Female radio button is selected - TC is passed]]>
+    </line>
+    <line>
+      <![CDATA[validatingFemaleRadioSelection is successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[validatingUserName Execution started]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excel row number-1, cell number-2]]>
+    </line>
+    <line>
+      <![CDATA[Actual and expected username are matching - TC is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Taking screenshot and stored at-C:\Users\palla\EclipseWorksapce\PolicyBazzarProject\screenshots\Pallavi Pustake-POL_TC_1234-CR.png]]>
+    </line>
+    <line>
+      <![CDATA[validatingUserName is successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[validatingEmailID Execution started]]>
+    </line>
+    <line>
+      <![CDATA[Reading data from excel row number-1, cell number-3]]>
+    </line>
+    <line>
+      <![CDATA[Actual and expected EmailID's are matching - TC is passed]]>
+    </line>
+    <line>
+      <![CDATA[validatingEmailID is successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[Logging out from Policy Bazzar Application]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-08T11:13:02 IST" name="Suite" finished-at="2023-07-08T11:13:37 IST" duration-ms="35184">
+    <groups>
+    </groups>
+    <test started-at="2023-07-08T11:13:02 IST" name="Test" finished-at="2023-07-08T11:13:37 IST" duration-ms="35184">
+      <class name="testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails">
+        <test-method is-config="true" signature="openPolicyBazzarApplication()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@793f29ff]" started-at="2023-07-08T11:13:02 IST" name="openPolicyBazzarApplication" finished-at="2023-07-08T11:13:31 IST" duration-ms="28234" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Policy Bazzar Appilcation]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for complete load page, wait time-1000]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on sign in home page]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for complete load page, wait time-1000]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excel row number-1, cell number-0]]>
+            </line>
+            <line>
+              <![CDATA[Entering mobile number]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for,wait time-1000]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on sign in with password]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for,wait time-1000]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excel row number-1, cell number-1]]>
+            </line>
+            <line>
+              <![CDATA[Entering password]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on sign in]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for complete load page, wait time-1500]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on my account]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for,wait time-1000]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on my profile]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for complete load page, wait time-2000]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openPolicyBazzarApplication -->
+        <test-method signature="validatingProfilePageURL()[pri:-1, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@793f29ff]" started-at="2023-07-08T11:13:31 IST" name="validatingProfilePageURL" finished-at="2023-07-08T11:13:36 IST" duration-ms="5120" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[validatingProfilePageURL Execution started]]>
+            </line>
+            <line>
+              <![CDATA[Actual and expected url are matching - TC is passed]]>
+            </line>
+            <line>
+              <![CDATA[validatingProfilePageURL is successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatingProfilePageURL -->
+        <test-method signature="validatingFemaleRadioSelection()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@793f29ff]" started-at="2023-07-08T11:13:36 IST" name="validatingFemaleRadioSelection" finished-at="2023-07-08T11:13:36 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[validatingFemaleRadioSelection Execution started]]>
+            </line>
+            <line>
+              <![CDATA[Female radio button is selected - TC is passed]]>
+            </line>
+            <line>
+              <![CDATA[validatingFemaleRadioSelection is successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatingFemaleRadioSelection -->
+        <test-method signature="validatingUserName()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@793f29ff]" started-at="2023-07-08T11:13:36 IST" name="validatingUserName" finished-at="2023-07-08T11:13:36 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[validatingUserName Execution started]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excel row number-1, cell number-2]]>
+            </line>
+            <line>
+              <![CDATA[Actual and expected username are matching - TC is Passed]]>
+            </line>
+            <line>
+              <![CDATA[Taking screenshot and stored at-C:\Users\palla\EclipseWorksapce\PolicyBazzarProject\screenshots\Pallavi Pustake-POL_TC_1234-CR.png]]>
+            </line>
+            <line>
+              <![CDATA[validatingUserName is successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatingUserName -->
+        <test-method signature="validatingEmailID()[pri:1, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@793f29ff]" started-at="2023-07-08T11:13:36 IST" name="validatingEmailID" finished-at="2023-07-08T11:13:36 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[validatingEmailID Execution started]]>
+            </line>
+            <line>
+              <![CDATA[Reading data from excel row number-1, cell number-3]]>
+            </line>
+            <line>
+              <![CDATA[Actual and expected EmailID's are matching - TC is passed]]>
+            </line>
+            <line>
+              <![CDATA[validatingEmailID is successfully executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatingEmailID -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@793f29ff]" started-at="2023-07-08T11:13:36 IST" name="closingBrowser" finished-at="2023-07-08T11:13:37 IST" duration-ms="937" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logging out from Policy Bazzar Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
