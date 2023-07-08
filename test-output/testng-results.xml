@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Launching Policy Bazzar Appilcation]]>
@@ -50,10 +50,7 @@
       <![CDATA[Clicking on my profile]]>
     </line>
     <line>
-      <![CDATA[Waiting for complete load page, wait time-2000]]>
-    </line>
-    <line>
-      <![CDATA[Actual and expected url are matching - TC is passed]]>
+      <![CDATA[Waiting for complete load page, wait time-2500]]>
     </line>
     <line>
       <![CDATA[Female radio button is selected - TC is passed]]>
@@ -65,7 +62,7 @@
       <![CDATA[Actual and expected username are matching - TC is Passed]]>
     </line>
     <line>
-      <![CDATA[Taking screenshot and stored at-F:\@Ruksar-TESTINGdata\myssRuksar Shaikh-POL_TC_1234-Cv.png]]>
+      <![CDATA[Taking screenshot and stored at-F:\@Ruksar-TESTINGdata\myssRuksar Shaikh-POL_TC_1234-Vo.png]]>
     </line>
     <line>
       <![CDATA[Reading data from excel row number-1, cell number-0]]>
@@ -77,12 +74,12 @@
       <![CDATA[Logging out from Policy Bazzar Application]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-07-08T12:48:03 IST" name="Default suite" finished-at="2023-07-08T12:48:32 IST" duration-ms="28909">
+  <suite started-at="2023-07-08T16:05:14 IST" name="Default suite" finished-at="2023-07-08T16:05:56 IST" duration-ms="42045">
     <groups>
     </groups>
-    <test started-at="2023-07-08T12:48:03 IST" name="Default test" finished-at="2023-07-08T12:48:32 IST" duration-ms="28909">
+    <test started-at="2023-07-08T16:05:14 IST" name="Default test" finished-at="2023-07-08T16:05:56 IST" duration-ms="42045">
       <class name="testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails">
-        <test-method is-config="true" signature="openPolicyBazzarApplication()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@3e8c3cb]" started-at="2023-07-08T12:48:03 IST" name="openPolicyBazzarApplication" finished-at="2023-07-08T12:48:23 IST" duration-ms="19881" status="PASS">
+        <test-method is-config="true" signature="openPolicyBazzarApplication()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@793f29ff]" started-at="2023-07-08T16:05:14 IST" name="openPolicyBazzarApplication" finished-at="2023-07-08T16:05:41 IST" duration-ms="27329" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Launching Policy Bazzar Appilcation]]>
@@ -133,25 +130,18 @@
               <![CDATA[Clicking on my profile]]>
             </line>
             <line>
-              <![CDATA[Waiting for complete load page, wait time-2000]]>
+              <![CDATA[Waiting for complete load page, wait time-2500]]>
             </line>
           </reporter-output>
         </test-method> <!-- openPolicyBazzarApplication -->
-        <test-method signature="validatingProfilePageURL()[pri:-1, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@3e8c3cb]" started-at="2023-07-08T12:48:23 IST" name="validatingProfilePageURL" finished-at="2023-07-08T12:48:28 IST" duration-ms="4909" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Actual and expected url are matching - TC is passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validatingProfilePageURL -->
-        <test-method signature="validatingFemaleRadioSelection()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@3e8c3cb]" started-at="2023-07-08T12:48:28 IST" name="validatingFemaleRadioSelection" finished-at="2023-07-08T12:48:28 IST" duration-ms="114" status="PASS">
+        <test-method signature="validatingFemaleRadioSelection()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@793f29ff]" started-at="2023-07-08T16:05:41 IST" name="validatingFemaleRadioSelection" finished-at="2023-07-08T16:05:50 IST" duration-ms="9058" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Female radio button is selected - TC is passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- validatingFemaleRadioSelection -->
-        <test-method signature="validatingUserName()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@3e8c3cb]" started-at="2023-07-08T12:48:28 IST" name="validatingUserName" finished-at="2023-07-08T12:48:30 IST" duration-ms="2757" status="PASS">
+        <test-method signature="validatingUserName()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@793f29ff]" started-at="2023-07-08T16:05:51 IST" name="validatingUserName" finished-at="2023-07-08T16:05:51 IST" duration-ms="400" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Reading data from excel row number-0, cell number-2]]>
@@ -160,11 +150,11 @@
               <![CDATA[Actual and expected username are matching - TC is Passed]]>
             </line>
             <line>
-              <![CDATA[Taking screenshot and stored at-F:\@Ruksar-TESTINGdata\myssRuksar Shaikh-POL_TC_1234-Cv.png]]>
+              <![CDATA[Taking screenshot and stored at-F:\@Ruksar-TESTINGdata\myssRuksar Shaikh-POL_TC_1234-Vo.png]]>
             </line>
           </reporter-output>
         </test-method> <!-- validatingUserName -->
-        <test-method signature="validatingEmailID()[pri:1, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@3e8c3cb]" started-at="2023-07-08T12:48:30 IST" name="validatingEmailID" finished-at="2023-07-08T12:48:31 IST" duration-ms="260" status="PASS">
+        <test-method signature="validatingEmailID()[pri:1, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@793f29ff]" started-at="2023-07-08T16:05:51 IST" name="validatingEmailID" finished-at="2023-07-08T16:05:51 IST" duration-ms="160" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Reading data from excel row number-1, cell number-0]]>
@@ -174,7 +164,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- validatingEmailID -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@3e8c3cb]" started-at="2023-07-08T12:48:31 IST" name="closingBrowser" finished-at="2023-07-08T12:48:32 IST" duration-ms="865" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testPolicyBazzar.POL_TC_1234_ValidatingPersonalDetails@793f29ff]" started-at="2023-07-08T16:05:51 IST" name="closingBrowser" finished-at="2023-07-08T16:05:56 IST" duration-ms="4924" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logging out from Policy Bazzar Application]]>

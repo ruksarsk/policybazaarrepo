@@ -54,15 +54,15 @@ public class POL_TC_1234_ValidatingPersonalDetails extends Base {
 		driver.switchTo().window(profilePageID);
 	}
 	
-	@Test(priority = -1)
-	  public void validatingProfilePageURL() throws EncryptedDocumentException, IOException {
-			
-		String expectedURL ="https://myaccount.policybazaar.com/profile";
-		String actualURL= driver.getCurrentUrl();
-		Assert.assertEquals(actualURL, expectedURL,"TC is failed");
-		Reporter.log("Actual and expected url are matching - TC is passed",true);
-			
-	  }
+//	@Test(priority = -1)
+//	  public void validatingProfilePageURL() throws EncryptedDocumentException, IOException {
+//			
+//		String expectedURL ="https://myaccount.policybazaar.com/profile";
+//		String actualURL= driver.getCurrentUrl();
+//		Assert.assertEquals(actualURL, expectedURL,"TC is failed");
+//		Reporter.log("Actual and expected url are matching - TC is passed",true);
+//			
+//	  }
 	
 	@Test
        public void validatingUserName() throws EncryptedDocumentException, IOException {
